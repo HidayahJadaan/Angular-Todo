@@ -1,0 +1,4 @@
+<div class="wrapper">
+  <app-to-do-form (itemAdded)="itemAddedHandler($event)"></app-to-do-form>
+  <app-to-do-list [items]="items" (resetFactoryChange)="resetFactoryHandler($event)"></app-to-do-list>
+</div>
